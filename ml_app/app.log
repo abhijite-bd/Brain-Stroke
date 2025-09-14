@@ -1,0 +1,41 @@
+2025-09-07 04:23:11,520 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-07 04:23:11,527 - __main__ - ERROR - Error loading models: [Errno 2] No such file or directory: './outputs\\feature_columns.joblib'
+2025-09-07 13:57:33,899 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-07 13:57:33,899 - __main__ - INFO - Models and features loaded successfully.
+2025-09-07 13:57:33,899 - __main__ - INFO - TensorFlow version: 2.16.1
+2025-09-07 13:57:33,937 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2025-09-07 13:57:33,937 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 13:58:50,923 - __main__ - INFO - Received input data: {'age': '24', 'gender': 'Male', 'avg_glucose_level': '12', 'bmi': '24', 'ever_married': 'No', 'Residence_type': 'Rural', 'work_type': 'Private', 'smoking_status': 'never smoked', 'hypertension': 0, 'heart_disease': 0}
+2025-09-07 13:58:50,967 - __main__ - INFO - Processed input columns: ['age', 'gender', 'avg_glucose_level', 'bmi', 'ever_married', 'Residence_type', 'hypertension', 'heart_disease', 'work_type_Private', 'work_type_Govt_job', 'work_type_Never_worked', 'work_type_Self-employed', 'work_type_children', 'smoking_status_never smoked', 'smoking_status_formerly smoked', 'smoking_status_smokes', 'smoking_status_Unknown']
+2025-09-07 13:58:51,388 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 13:58:51] "POST /predict HTTP/1.1" 200 -
+2025-09-07 14:00:47,101 - __main__ - INFO - Received input data: {'age': '45', 'gender': 'Male', 'hypertension': 1, 'heart_disease': 1, 'avg_glucose_level': '20', 'bmi': '32', 'ever_married': 'Yes', 'Residence_type': 'Urban', 'work_type': 'Govt_job', 'smoking_status': 'smokes'}
+2025-09-07 14:00:47,101 - __main__ - INFO - Processed input columns: ['age', 'gender', 'hypertension', 'heart_disease', 'avg_glucose_level', 'bmi', 'ever_married', 'Residence_type', 'work_type_Govt_job', 'work_type_Never_worked', 'work_type_Private', 'work_type_Self-employed', 'work_type_children', 'smoking_status_smokes', 'smoking_status_formerly smoked', 'smoking_status_never smoked', 'smoking_status_Unknown']
+2025-09-07 14:00:47,302 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 14:00:47] "POST /predict HTTP/1.1" 200 -
+2025-09-07 14:12:12,223 - __main__ - INFO - Received input data: {'age': '74', 'gender': 'Male', 'hypertension': 1, 'avg_glucose_level': '70.9', 'bmi': '27.4', 'ever_married': 'Yes', 'Residence_type': 'Rural', 'work_type': 'Private', 'smoking_status': 'smokes', 'heart_disease': 0}
+2025-09-07 14:12:12,273 - __main__ - INFO - Processed input columns: ['age', 'gender', 'hypertension', 'avg_glucose_level', 'bmi', 'ever_married', 'Residence_type', 'heart_disease', 'work_type_Private', 'work_type_Govt_job', 'work_type_Never_worked', 'work_type_Self-employed', 'work_type_children', 'smoking_status_smokes', 'smoking_status_formerly smoked', 'smoking_status_never smoked', 'smoking_status_Unknown']
+2025-09-07 14:12:12,890 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 14:12:12] "POST /predict HTTP/1.1" 200 -
+2025-09-07 15:52:26,382 - __main__ - INFO - Received input data: {'age': '90', 'gender': 'Male', 'hypertension': 1, 'heart_disease': 1, 'avg_glucose_level': '100', 'bmi': '40', 'ever_married': 'Yes', 'Residence_type': 'Urban', 'work_type': 'Private', 'smoking_status': 'smokes'}
+2025-09-07 15:52:26,447 - __main__ - INFO - Processed input columns: ['age', 'gender', 'hypertension', 'heart_disease', 'avg_glucose_level', 'bmi', 'ever_married', 'Residence_type', 'work_type_Private', 'work_type_Govt_job', 'work_type_Never_worked', 'work_type_Self-employed', 'work_type_children', 'smoking_status_smokes', 'smoking_status_formerly smoked', 'smoking_status_never smoked', 'smoking_status_Unknown']
+2025-09-07 15:52:27,521 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 15:52:27] "POST /predict HTTP/1.1" 200 -
+2025-09-10 02:27:08,407 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-10 02:27:08,457 - __main__ - INFO - Models and features loaded successfully.
+2025-09-10 02:27:08,457 - __main__ - INFO - TensorFlow version: 2.16.1
+2025-09-10 02:27:08,491 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.107:5000
+2025-09-10 02:27:08,491 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 02:39:57,068 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-10 02:39:57,150 - __main__ - INFO - Models and features loaded successfully.
+2025-09-10 02:39:57,150 - __main__ - INFO - TensorFlow version: 2.16.1
+2025-09-10 02:39:57,181 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.107:5000
+2025-09-10 02:39:57,181 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 02:52:41,709 - __main__ - INFO - Received input data: {'age': '22', 'gender': 'Male', 'hypertension': 1, 'heart_disease': 1, 'avg_glucose_level': '100', 'bmi': '40', 'ever_married': 'Yes', 'Residence_type': 'Urban', 'work_type': 'Self-employed', 'smoking_status': 'smokes'}
+2025-09-10 02:52:41,766 - __main__ - INFO - Processed input columns: ['age', 'gender', 'hypertension', 'heart_disease', 'avg_glucose_level', 'bmi', 'ever_married', 'Residence_type', 'work_type_Self-employed', 'work_type_Govt_job', 'work_type_Never_worked', 'work_type_Private', 'work_type_children', 'smoking_status_smokes', 'smoking_status_formerly smoked', 'smoking_status_never smoked', 'smoking_status_Unknown']
+2025-09-10 02:52:42,254 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 02:52:42] "POST /predict HTTP/1.1" 200 -
